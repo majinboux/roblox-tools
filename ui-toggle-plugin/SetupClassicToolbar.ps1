@@ -1,7 +1,8 @@
 <# 
     ============================================
     Roblox Studio Classic Toolbar Setup
-    By Mincraftmark0
+    By majinboux
+    Inspired by Mincraftmark0's video
     ============================================
     
     This script automatically configures Roblox Studio
@@ -14,7 +15,7 @@
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Cyan
 Write-Host "  Roblox Studio Classic Toolbar Setup" -ForegroundColor Cyan
-Write-Host "  By Mincraftmark0" -ForegroundColor Cyan
+Write-Host "  By majinboux (inspired by Mincraftmark0)" -ForegroundColor Cyan
 Write-Host "============================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -134,7 +135,7 @@ Write-Host "Your settings have been saved to:" -ForegroundColor Yellow
 Write-Host "  $settingsPath" -ForegroundColor Gray
 Write-Host "  $ribbonConfigPath" -ForegroundColor Gray
 Write-Host ""
-Write-Host "Made with love by Mincraftmark0" -ForegroundColor Magenta
+Write-Host "Made by majinboux | Inspired by Mincraftmark0" -ForegroundColor Magenta
 Write-Host ""
 
 # Ask if user wants to restart Studio

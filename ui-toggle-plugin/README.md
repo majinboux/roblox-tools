@@ -1,6 +1,7 @@
 # 🎨 Roblox Studio UI Toggle Plugin
 
-**By Mincraftmark0**
+**By majinboux**  
+*Inspired by Mincraftmark0's video*
 
 A simple plugin that helps you switch between the Next Gen UI and Legacy (classic) UI in Roblox Studio!
 
@@ -152,8 +153,9 @@ A: Yes! The method works on all platforms.
 
 ## 🙏 Credits
 
-- **Created by:** Mincraftmark0
-- **Video:** [YouTube - roblox next gen studio](https://www.youtube.com/watch?v=a34HUcapdIQ)
+- **Created by:** majinboux
+- **Inspired by:** Mincraftmark0's [YouTube video](https://www.youtube.com/watch?v=a34HUcapdIQ)
+- **Video tutorial:** Mincraftmark0
 - **Plugin help:** Community feedback
 
 ---

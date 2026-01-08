@@ -1,7 +1,8 @@
 --[[
     ============================================
     Roblox Studio UI Toggle Plugin
-    By Mincraftmark0
+    By majinboux
+    Inspired by Mincraftmark0's video
     ============================================
     
     Helps you switch between Next Gen UI and Legacy UI
@@ -23,7 +24,7 @@
 local plugin = plugin
 
 -- Create toolbar with toggle button
-local toolbar = plugin:CreateToolbar("Mincraftmark0")
+local toolbar = plugin:CreateToolbar("majinboux")
 local mainButton = toolbar:CreateButton(
     "🎨 UI Toggle",
     "Switch between Next Gen and Legacy UI layouts",
@@ -74,7 +75,7 @@ local widgetInfo = DockWidgetPluginGuiInfo.new(
 )
 
 local widget = plugin:CreateDockWidgetPluginGui("UIToggleHelp", widgetInfo)
-widget.Title = "🎨 Switch UI Style - by Mincraftmark0"
+widget.Title = "🎨 Switch UI Style - by majinboux"
 
 -- Build the UI
 local function buildUI()
@@ -198,7 +199,7 @@ Step 3️⃣  Customize your ribbon!
     credit.Position = UDim2.new(0, 0, 1, -35)
     credit.BackgroundTransparency = 1
     credit.TextColor3 = Color3.fromRGB(100, 100, 100)
-    credit.Text = "Made with ❤️ by Mincraftmark0"
+    credit.Text = "Made by majinboux | Inspired by Mincraftmark0"
     credit.TextSize = 10
     credit.Font = Enum.Font.Gotham
     credit.Parent = main
@@ -404,7 +405,7 @@ local function buildChecklistUI()
     bottomText.Parent = bottomFrame
 end
 
--- Toggle checklist widget on legacy button click
+-- Legacy button opens checklist
 legacyButton.Click:Connect(function()
     checklistWidget.Enabled = not checklistWidget.Enabled
     if checklistWidget.Enabled then
@@ -412,5 +413,13 @@ legacyButton.Click:Connect(function()
     end
 end)
 
-print("[UIToggle] Plugin loaded! Click the toolbar buttons to get started.")
-print("[UIToggle] Made with ❤️ by Mincraftmark0")
+-- Build initial UI
+buildUI()
+
+-- Show welcome message
+print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+print("🎨 UI Toggle Plugin by majinboux")
+print("   • Click '🎨 UI Toggle' for instructions")
+print("   • Click '⚡ Classic Layout' for tool checklist")
+print("   Inspired by Mincraftmark0's video")
+print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
