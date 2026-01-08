@@ -1,7 +1,7 @@
 # 🎨 Roblox Studio Classic Toolbar - One-Click Setup
 
 **By majinboux**  
-*Inspired by Mincraftmark0's video*
+_Inspired by Mincraftmark0's video_
 
 **Get the old Roblox Studio UI back in ONE CLICK!** No complicated steps, no manual configuration. Just run the script and you're done.
 
@@ -34,6 +34,7 @@ Based on the method shown in [Mincraftmark0's video](https://www.youtube.com/wat
 5. **Reopen Roblox Studio** - Done! 🎉
 
 The script automatically:
+
 - Finds your Roblox Studio installation
 - Creates the right configuration files
 - Sets up the classic toolbar layout
@@ -43,14 +44,11 @@ The script automatically:
 
 ## 📥 What's Included
 
-| File                      | Purpose                                |
-| ------------------------- | -------------------------------------- |
-| `CLICK_ME_Setup.bat`      | ⚡ One-click automatic setup (USE THIS)|
-| `SetupClassicToolbar.ps1` | PowerShell script (runs automatically) |
-| `README.md`               | This file                              |
-
-**Optional extras:**
-- `UIToggle.lua` - Plugin with in-Studio guide (advanced users only)
+| File                      | Purpose                                 |
+| ------------------------- | --------------------------------------- |
+| `CLICK_ME_Setup.bat`      | ⚡ One-click automatic setup (USE THIS) |
+| `SetupClassicToolbar.ps1` | PowerShell script (runs automatically)  |
+| `README.md`               | This file                               |
 
 ---
 
@@ -66,6 +64,7 @@ After running the script:
 ### Add More Tools:
 
 Use the same "Add Tools" menu to add:
+
 - Undo / Redo buttons
 - Block, Insert, Move, Scale, Rotate
 - Any other tools you want
@@ -74,14 +73,36 @@ Your layout saves automatically!
 
 ---
 
+## 📖 Manual Method (from the video)
+
+Prefer to do it yourself? Follow these steps:
+
+1. **Open Add Tools:**
+   - Press `Ctrl + Shift + X`
+   - OR right-click on the ribbon toolbar
+   - OR go to `View` menu → `Add Tools`
+
+2. **Search for "Reload custom tabs"**
+   - Type it in the search box
+   - Click on it when it appears
+
+3. **Customize your ribbon!**
+   - Add Undo, Redo, Block, Insert, Move, Scale, Rotate
+   - Arrange tools however you like
+   - Your layout saves automatically!
+
+---
+
 ## 📸 What You'll Get
 
 **Before (Next Gen UI):**
+
 - Modern tabbed interface
 - Tools hidden in menus
 - New ribbon layout
 
 **After (Legacy UI):**
+
 - Classic toolbar with familiar icons
 - Undo, Redo, Block, Insert, Move, Scale, Rotate...
 - The layout you know and love!
