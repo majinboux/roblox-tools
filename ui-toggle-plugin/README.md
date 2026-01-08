@@ -1,9 +1,9 @@
-# 🎨 Roblox Studio UI Toggle Plugin
+# 🎨 Roblox Studio Classic Toolbar - One-Click Setup
 
 **By majinboux**  
 *Inspired by Mincraftmark0's video*
 
-A simple plugin that helps you switch between the Next Gen UI and Legacy (classic) UI in Roblox Studio!
+**Get the old Roblox Studio UI back in ONE CLICK!** No complicated steps, no manual configuration. Just run the script and you're done.
 
 > "Time to make things right!" 💪
 
@@ -11,133 +11,109 @@ A simple plugin that helps you switch between the Next Gen UI and Legacy (classi
 
 ## 🎬 Based on the Video
 
-This plugin is based on the method shown in [Mincraftmark0's video](https://www.youtube.com/watch?v=a34HUcapdIQ) about restoring the old Roblox Studio UI.
+Based on the method shown in [Mincraftmark0's video](https://www.youtube.com/watch?v=a34HUcapdIQ) - now fully automated!
 
 ## ✨ Features
 
-- ⚡ **ONE-CLICK automatic setup** (just run the batch file!)
-- 🎯 Step-by-step guide included
-- 🔧 Works with Roblox Studio's built-in customization
-- 🎨 Clean, modern plugin interface
-- ☑️ Interactive checklist to track progress
+- ⚡ **ONE-CLICK automatic setup** - Double-click and done!
+- 🚀 No manual configuration needed
+- 🔧 Uses Roblox Studio's official customization system
+- 💾 Auto-configures all settings files
+- ✅ Safe - creates backups automatically
 
 ---
 
-## 🚀 QUICK START (Automatic - Recommended!)
+## 🚀 HOW TO USE (Super Easy!)
 
-### One-Click Setup:
+### Automatic Setup (RECOMMENDED):
 
-1. **Double-click** `CLICK_ME_Setup.bat`
-2. Press any key to continue
-3. Type `Y` to close Studio when prompted
-4. **Reopen Roblox Studio** - Done! 🎉
+1. **Download** this repo (green "Code" button → Download ZIP)
+2. **Extract** the zip file
+3. **Double-click** `CLICK_ME_Setup.bat`
+4. Press any key, type `Y` when asked
+5. **Reopen Roblox Studio** - Done! 🎉
 
-That's it! The script automatically configures everything.
+The script automatically:
+- Finds your Roblox Studio installation
+- Creates the right configuration files
+- Sets up the classic toolbar layout
+- Backs up your existing settings
 
 ---
 
-## 📥 Full Installation (Plugin + Script)
-
-### What's Included:
+## 📥 What's Included
 
 | File                      | Purpose                                |
 | ------------------------- | -------------------------------------- |
-| `CLICK_ME_Setup.bat`      | ⚡ One-click automatic setup           |
+| `CLICK_ME_Setup.bat`      | ⚡ One-click automatic setup (USE THIS)|
 | `SetupClassicToolbar.ps1` | PowerShell script (runs automatically) |
-| `UIToggle.lua`            | Roblox Studio plugin with guide        |
 | `README.md`               | This file                              |
 
-### Step 1: Run Automatic Setup
-
-1. Double-click `CLICK_ME_Setup.bat`
-2. Follow the prompts
-3. Restart Roblox Studio
-
-### Step 2: Install Plugin (Optional - for checklist)
-
-1. Copy `UIToggle.lua` to `%APPDATA%\Roblox\Plugins\`
-2. Restart Studio
-3. Click "🎨 UI Toggle" or "⚡ Classic Layout" in toolbar
+**Optional extras:**
+- `UIToggle.lua` - Plugin with in-Studio guide (advanced users only)
 
 ---
 
-## 🎮 How to Use
+## 🎮 After Setup - Customize Your Toolbar
 
-### Method 1: Use the Plugin
+After running the script:
 
-1. Click the **"🎨 UI Toggle"** button in the toolbar
-2. Follow the on-screen instructions
-3. Done!
+1. **Open Roblox Studio**
+2. **Press `Ctrl + Shift + X`** (or right-click ribbon → "Add Tools")
+3. **Search "Reload custom tabs"** and click it
+4. **Done!** Your classic toolbar appears
 
-### Method 2: Manual Steps (from the video)
+### Add More Tools:
 
-1. **Open Add Tools:**
+Use the same "Add Tools" menu to add:
+- Undo / Redo buttons
+- Block, Insert, Move, Scale, Rotate
+- Any other tools you want
 
-   - Press `Ctrl + Shift + X`
-   - OR right-click on the ribbon toolbar
-   - OR go to `View` menu → `Add Tools`
-
-2. **Search for "Reload custom tabs"**
-
-   - Type it in the search box
-   - Click on it when it appears
-
-3. **Customize your ribbon!**
-   - Add/remove tools as you like
-   - Arrange them in your preferred layout
-   - Add Undo/Redo buttons back if needed
-   - Your layout saves automatically!
+Your layout saves automatically!
 
 ---
 
 ## 📸 What You'll Get
 
 **Before (Next Gen UI):**
-
 - Modern tabbed interface
-- Tools organized in categories
+- Tools hidden in menus
 - New ribbon layout
 
 **After (Legacy UI):**
-
 - Classic toolbar with familiar icons
 - Undo, Redo, Block, Insert, Move, Scale, Rotate...
 - The layout you know and love!
 
 ---
 
-## 🔧 Technical Details
+## 🔧 How It Works
 
-- **Language:** Luau (Roblox)
-- **Type:** Studio Plugin
-- **Size:** ~5 KB
-- **Dependencies:** None
-- **Compatibility:** Roblox Studio 2024+
+The script automatically creates these config files:
 
-### How It Actually Works
+1. **ClientAppSettings.json** - Enables ribbon customization
+2. **StudioRibbonConfig.json** - Defines your classic toolbar layout
 
-The plugin guides you to use Roblox Studio's built-in **"Reload custom tabs"** feature, which:
+Then you just use Roblox Studio's built-in **"Reload custom tabs"** feature to apply it.
 
-- Reloads the ribbon from configuration files
-- Lets you customize which tools appear
-- Saves your layout preferences
-- No hacks or registry edits needed!
+**No hacks, no registry edits - 100% official Roblox features!**
 
 ---
 
 ## ❓ FAQ
 
-**Q: Will this break my Studio?**
-A: No! It uses Roblox's official customization system.
+**Q: Will this break my Studio?**  
+A: No! It uses Roblox's official customization system. The script even creates backups.
 
-**Q: Will my layout save?**
-A: Yes! Roblox Studio remembers your ribbon customization.
+**Q: Will my layout save?**  
+A: Yes! Roblox Studio remembers your ribbon customization automatically.
 
-**Q: Can I go back to Next Gen UI?**
-A: Yes! Just use Add Tools → Reload custom tabs again.
+**Q: Can I go back to Next Gen UI?**  
+A: Yes! Just use Add Tools → Reload custom tabs again, or delete the config files.
 
-**Q: Does this work on Mac?**
-A: Yes! The method works on all platforms.
+**Q: Does the script work on Mac?**  
+A: The `.bat` script is Windows-only, but Mac users can manually follow the video method.
 
 ---
 
@@ -146,8 +122,8 @@ A: Yes! The method works on all platforms.
 ### v1.0.0 (January 8, 2026)
 
 - Initial release
+- One-click automatic setup
 - Based on Mincraftmark0's video method
-- Clean UI with step-by-step instructions
 
 ---
 
@@ -156,7 +132,7 @@ A: Yes! The method works on all platforms.
 - **Created by:** majinboux
 - **Inspired by:** Mincraftmark0's [YouTube video](https://www.youtube.com/watch?v=a34HUcapdIQ)
 - **Video tutorial:** Mincraftmark0
-- **Plugin help:** Community feedback
+- **Community feedback:** Thank you!
 
 ---
 
@@ -168,4 +144,4 @@ MIT License - Free to use, modify, and share!
 
 **Made with ❤️ for the Roblox community**
 
-_If this helped you, leave a like on the video!_ 👍
+_If this helped you, leave a like on Mincraftmark0's video!_ 👍
