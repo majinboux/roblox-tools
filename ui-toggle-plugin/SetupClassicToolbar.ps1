@@ -97,6 +97,12 @@ if (Test-Path $globalBasicSettingsPath) {
 Write-Host ""
 Write-Host "[5/5] Creating ribbon customization file..." -ForegroundColor Yellow
 
+# Ensure the Roblox AppData folder exists
+if (-not (Test-Path $robloxSettingsPath)) {
+    New-Item -Path $robloxSettingsPath -ItemType Directory -Force | Out-Null
+    Write-Host "  Created Roblox settings folder" -ForegroundColor Green
+}
+
 # Create a custom ribbon configuration
 $ribbonConfigPath = Join-Path $robloxSettingsPath "StudioRibbonConfig.json"
 
